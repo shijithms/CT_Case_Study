@@ -1,19 +1,3 @@
-#include<iostream>
-#include<cstring>
-#include<cstdio>
-using namespace std;
-
-class String{
-	private:
-		char *str;
-	public:
-		String(){}
-		String(const char *st){
-			int n=strlen(st)+1;
-			str=new char[n];
-			strcpy(str,st);
-			str[n-1]='\0';
-		}
 		void create(const char *st){
 			int n=strlen(st)+1;
 			str=new char[n];
@@ -52,6 +36,16 @@ class String{
 			return in; 	
 		}
 };
+=======
+int main(void){
+	
+cout<<hello program<<endl;
+return 0;
+}
+
+#include<iostream>
+using namespace std;
+>>>>>>> c56ced3fa6d89b18216c76f1b55db1fbbaf20f9a
 int main(void){
 	String st1="Hello";
 	String st2= "world !";
