@@ -1,4 +1,7 @@
-//newone
+//newonewwwwwwww
+
+
+//secomd new one
 #include<iostream>
 using namespace std;
 int main(void){
@@ -6,8 +9,6 @@ int main(void){
 cout<<hello program<<endl;
 return 0;
 }
-
-
 
 #include<iostream>
 using namespace std;
