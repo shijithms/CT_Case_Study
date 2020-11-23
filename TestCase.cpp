@@ -1,1 +1,2 @@
 cout<<"Hello";
+cout<<"hi";
